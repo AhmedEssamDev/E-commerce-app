@@ -1,0 +1,65 @@
+{
+  "skip": "تخطي",
+  "next": "التالي",
+  "get_started": "ابدأ الآن",
+  "choose_products": "اختر المنتجات",
+  "make_payment": "قم بالدفع",
+  "get_your_order": "استلم طلبك",
+  "onboarding_desc": "نوفر لك أفضل المنتجات بأعلى جودة وأفضل الأسعار. تسوق الآن واستمتع بتجربة تسوق فريدة من نوعها.",
+
+  "auth_title": "تريد الأصالة،\n ها هي\n أمامك!",
+  "auth_subtitle": "ابحث عنه هنا، واشتريه الآن!",
+  "login": "تسجيل دخول",
+  "register": "إنشاء حساب",
+
+  "welcome_back": "مرحباً\nبعودتك!",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "login_error": "أدخل بريد إلكتروني وكلمة مرور صحيحين",
+  "login_success": "تم تسجيل الدخول بنجاح",
+  "welcome": "مرحباً",
+  "please_enter_email": "الرجاء إدخال بريدك الإلكتروني",
+  "please_enter_valid_email": "الرجاء إدخال بريد إلكتروني صحيح",
+  "please_enter_password": "الرجاء إدخال كلمة المرور",
+  "password_min_length": "كلمة المرور يجب أن تكون 6 أحرف على الأقل",
+
+  "create_account": "إنشاء\nحساب",
+  "full_name": "الاسم الكامل",
+  "phone": "الهاتف",
+  "confirm_password": "تأكيد كلمة المرور",
+  "register_agree_prefix": "بالضغط على زر",
+  "register_agree_button": " التسجيل ",
+  "register_agree_suffix": "فأنت توافق\nعلى العرض العام",
+  "register_success": "تم التسجيل بنجاح",
+  "please_enter_full_name": "الرجاء إدخال اسمك الكامل",
+  "please_enter_phone": "الرجاء إدخال رقم هاتفك",
+
+  "all_featured": "جميع المنتجات",
+  "search_products": "ابحث عن أي منتج...",
+
+  "home": "الرئيسية",
+  "items": "المنتجات",
+  "profile": "الملف الشخصي",
+
+  "hello_people": "مرحباً بالجميع",
+
+  "my_profile": "ملفي الشخصي",
+  "my_orders": "طلباتي",
+  "my_favorites": "مفضلاتي",
+  "settings": "الإعدادات",
+  "logout": "تسجيل خروج",
+
+  "full_name_hint": "الاسم الكامل",
+  "phone_hint": "الهاتف",
+  "save": "حفظ",
+  "please_enter_name": "الرجاء إدخال اسمك",
+  "please_enter_phone_update": "الرجاء إدخال رقم هاتفك",
+
+  "language": "اللغة",
+  "error_occurred": "حدث خطأ ما، يرجى المحاولة مرة أخرى",
+  "update_success": "تم تحديث الملف الشخصي بنجاح",
+  "update_error": "فشل تحديث الملف الشخصي",
+  "register_error": "فشل التسجيل، يرجى المحاولة مرة أخرى",
+  "recommended": "مقترحات",
+  "egp": "جنيه مصري"
+}

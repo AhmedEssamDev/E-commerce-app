@@ -1,0 +1,65 @@
+{
+  "skip": "skip",
+  "next": "Next",
+  "get_started": "Get Started",
+  "choose_products": "Choose Products",
+  "make_payment": "Make Payment",
+  "get_your_order": "Get Your Order",
+  "onboarding_desc": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+
+  "auth_title": "You want\n Authentic, here\n you go!",
+  "auth_subtitle": "Find it here, buy it now!",
+  "login": "Login",
+  "register": "Register",
+
+  "welcome_back": "Welcome\nBack!",
+  "email": "Email",
+  "password": "password",
+  "login_error": "Enter valid email and password",
+  "login_success": "Login successfully",
+  "welcome": "Welcome",
+  "please_enter_email": "Please enter your email",
+  "please_enter_valid_email": "Please enter a valid email",
+  "please_enter_password": "Please enter your password",
+  "password_min_length": "Password must be at least 6 characters",
+
+  "create_account": "Create an\naccount",
+  "full_name": "Full name",
+  "phone": "Phone",
+  "confirm_password": "Confirm Password",
+  "register_agree_prefix": "By clicking the",
+  "register_agree_button": " Register ",
+  "register_agree_suffix": "button, you agree\nto the public offer",
+  "register_success": "Register successfully",
+  "please_enter_full_name": "Please enter your full name",
+  "please_enter_phone": "Please enter your phone number",
+
+  "all_featured": "All Featured",
+  "search_products": "Search any products...",
+
+  "home": "Home",
+  "items": "Items",
+  "profile": "Profile",
+
+  "hello_people": "hello people",
+
+  "my_profile": "My Profile",
+  "my_orders": "My Orders",
+  "my_favorites": "My Favorites",
+  "settings": "Settings",
+  "logout": "Logout",
+
+  "full_name_hint": "Full Name",
+  "phone_hint": "Phone",
+  "save": "Save",
+  "please_enter_name": "Please enter your name",
+  "please_enter_phone_update": "Please enter your phone",
+
+  "language": "Language",
+  "error_occurred": "An error occurred, please try again",
+  "update_success": "Profile updated successfully",
+  "update_error": "Failed to update profile",
+  "register_error": "Registration failed, please try again",
+  "recommended": "Recommended",
+  "egp": "EGP"
+}
