@@ -9,7 +9,7 @@ class CustomButton extends StatelessWidget {
    this.colorbutton,
    this.onTap,
    this.width = 279,
-   this.fontsize= 23
+   this.fontsize= 23, 
   });
   String text;
   Color? colortext;

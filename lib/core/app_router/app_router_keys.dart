@@ -10,4 +10,7 @@ abstract class AppRouterKeys {
   static const String updateProfile = "/updateProfile";
   static const String settings = "/settings";
   static const String order = "/order";
+  static const String search = "/search";
+  static const String productDetails = "/productDetails"; 
+  static const String cart = "/cart";
 }

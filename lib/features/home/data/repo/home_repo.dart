@@ -3,7 +3,9 @@ import 'package:shop/core/network/api_helper.dart';
 import 'package:shop/core/network/api_response.dart';
 import 'package:shop/core/network/end_points.dart';
 import 'package:shop/features/home/data/models/category_model.dart';
+import 'package:shop/features/home/data/models/search_model.dart';
 import 'package:shop/features/home/data/models/sliders_model.dart';
+
 
 class HomeRepo {
   APIHelper apiHelper = APIHelper();
@@ -34,6 +36,27 @@ class HomeRepo {
       if (response.status) {
         var slidersResponse = SlidersResponseModel.fromJson(response.data);
         return Right(slidersResponse.sliders!);
+      } else {
+        return Left(response.message);
+      }
+    } catch (e) {
+      return Left(ApiResponse.fromError(e).message);
+    }
+  }
+}
+
+class SearchRepo {
+  final APIHelper apiHelper;
+  SearchRepo({APIHelper? apiHelper}) : apiHelper = apiHelper ?? APIHelper();
+
+  Future<Either<String, List<ProductsSearch>>> search(String query) async {
+    try {
+      var response = await apiHelper.getRequest(
+        endPoint: EndPoints.search + query,
+      );
+      if (response.status) {
+        var searchResponse = SearchResponseModel.fromJson(response.data);
+        return Right(searchResponse.products!);
       } else {
         return Left(response.message);
       }

@@ -4,6 +4,8 @@ import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
 import 'package:shop/core/app_router/app_router.dart';
 import 'package:shop/core/app_router/app_router_keys.dart';
+import 'package:shop/core/cache/cache_helper.dart';
+import 'package:shop/core/cache/cache_keys.dart';
 import 'package:shop/core/utils/app_assets.dart';
 import 'package:shop/core/utils/app_colors.dart';
 import 'package:shop/core/utils/text_styles.dart';
@@ -45,6 +47,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
         curve: Curves.easeInOut,
       );
     } else {
+      CacheHelper.setValue(Cachekeys.onboardingDone, true);
       context.go(AppRouterKeys.auth);
     }
   }
@@ -85,8 +88,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                   child: Align(
                     alignment: AlignmentDirectional.centerEnd,
                     child: TextButton(
-                      onPressed: 
-                      () => context.go(AppRouterKeys.auth),
+                      onPressed: () {
+                        CacheHelper.setValue(Cachekeys.onboardingDone, true);
+                        context.go(AppRouterKeys.auth);
+                      },
                       child: Text('skip'.tr(),style: AppTextStyles.titleText(),),
                     ),
                   ),

@@ -12,6 +12,7 @@ class CategoriesCubit extends Cubit<CategoriesState>{
   List<CategoryModel>? categories;
 
   int currentIndex = 0;
+  
   void onCategoryTapped(int newIndex){
     currentIndex = newIndex;
     emit(CategoriesIndexChanged());

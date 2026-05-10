@@ -5,6 +5,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
 import 'package:shop/core/app_router/app_router_keys.dart';
+import 'package:shop/core/cache/cache_helper.dart';
+import 'package:shop/core/cache/cache_keys.dart';
 import 'package:shop/core/utils/app_assets.dart';
 import 'package:shop/core/utils/app_colors.dart';
 import 'package:shop/core/utils/text_styles.dart';
@@ -111,8 +113,9 @@ class ProfileView extends StatelessWidget {
                       ),
                       SizedBox(height: 50.h),
                       ListTile(
-                        onTap: () {
-                          context.go(AppRouterKeys.login);
+                        onTap: () async{
+                          await CacheHelper.removeValue(Cachekeys.accessToken);
+                          context.go(AppRouterKeys.auth);
                         },
                         leading: SvgPicture.asset(AppIcons.logout),
                         title: Text('logout'.tr()),

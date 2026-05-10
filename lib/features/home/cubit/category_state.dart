@@ -13,3 +13,5 @@ class CategoriesError extends CategoriesState {
   String error;
   CategoriesError({required this.error});
 }
+
+class searchState {}
